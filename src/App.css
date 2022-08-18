@@ -22,6 +22,7 @@ nav{
 
 nav h1{
   font-size:35px;
+  padding-right:10px;
 }
 nav a{
   color:white;
@@ -29,4 +30,17 @@ nav a{
   text-decoration: none;
   padding:0 15px;
   font-weight: bold;
+}
+
+.speakers{
+  padding:3rem 5rem;
+  display: grid;
+  gap:2rem;
+  /* grid-auto-flow: column; */
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }

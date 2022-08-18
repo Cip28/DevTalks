@@ -1,9 +1,10 @@
 import Speaker from './Speaker'
+// import { useState, createContext, useContext } from "react";
 
 const Speakers = () => {
   return (
-    <div>
-
+    <div >
+        <Speaker />
     </div>
   )
 }
