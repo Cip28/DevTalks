@@ -6,7 +6,7 @@ import speaker5 from "./images/speaker-5.jpg";
 import speaker6 from "./images/speaker-6.jpg";
 import speaker7 from "./images/speaker-7.jpg";
 
-const speakers = [
+const speakerz = [
   {
     id: 1,
     photo: speaker1,
@@ -58,4 +58,27 @@ const speakers = [
   },
 ];
 
-export default speakers;
+const topicz = [
+  {
+    id:1,
+    name:"XR Development",
+    time:"14:00"
+  },
+  {
+    id:2,
+    name:"Mobile Application Development",
+    time:"15:00"
+  },
+  {
+    id:3,
+    name:"Blockchain",
+    time:"16:30"
+  },
+  {
+    id:4,
+    name:"NFTs",
+    time:"18:00"
+  },
+]
+
+export {speakerz,topicz};

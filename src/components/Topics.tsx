@@ -1,11 +1,17 @@
-import React from 'react'
+import Topic from "./Topic";
+import { useContext } from "react";
+import { MyGlobalContext } from "../Helper/Context";
+import FormTopic from "./FormTopic";
 
 const Topics = () => {
+  const { isAdmin } = useContext(MyGlobalContext);
+
   return (
     <div>
-      topics
+      {isAdmin && <FormTopic />}
+      <Topic />
     </div>
-  )
-}
+  );
+};
 
-export default Topics
+export default Topics;

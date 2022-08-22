@@ -1,46 +1,155 @@
-body,html{
+body,
+html {
   /* margin:4rem 10rem; */
-  height:100%;
-  margin:0;
+  height: 100%;
+  margin: 0;
+  /* background-color: #c065f0; */
 }
-.home{
-  background-image: url('./images/presentation.jpg');
+.home {
+  background-image: url("./images/presentation.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-nav{
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding:1rem 4rem;
+  padding: 1rem 4rem;
   background-color: black;
-  color:white;
-
+  color: white;
 }
 
-nav h1{
-  font-size:35px;
-  padding-right:10px;
+nav h1 {
+  font-size: 35px;
+  padding-right: 10px;
 }
-nav a{
-  color:white;
-  font-size:20px;
+nav a {
+  color: white;
+  font-size: 20px;
   text-decoration: none;
-  padding:0 15px;
+  padding: 0 15px;
   font-weight: bold;
 }
 
-.speakers{
-  padding:3rem 5rem;
+
+.form__add {
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 50%;
+  margin: 5rem auto;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+form {
+  padding: 30px 40px;
+}
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  border: none;
+}
+
+.form-control .success input {
+  border-color: #2ecc71;
+}
+.form-control .error input {
+  border-color: red;
+}
+
+.form-control label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.form-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 5px;
+  display: block;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  width: 100%;
+}
+.form-control i {
+  position: absolute;
+  top: 40px;
+  visibility: hidden;
+  right: 10px;
+}
+.form-control.success i.fa-check-circle {
+  visibility: visible;
+  color: #2ecc71;
+}
+.form-control.error i.fa-exclamation-circle {
+  visibility: visible;
+  color: red;
+}
+.form-control small {
+  visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.form-control.error small {
+  visibility: visible;
+  color: red;
+}
+.form__add button {
+  background-color: #8e44ad;
+  color: #fff;
+  border: 2px solid #8e44ad;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.form__add button:hover {
+  background-color: #9659b6;
+}
+.speakers {
+  min-height:100vh;
+  background-color: #e4c4f5;
+  padding: 3rem 5rem;
   display: grid;
-  gap:2rem;
-  /* grid-auto-flow: column; */
   align-items: center;
   justify-items: center;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+}
+.topics {
+  min-height:100vh;
+  background-color: #e4c4f5;
+  padding: 3rem 5rem;
+  display: grid;
+  gap: 2rem;
+  grid-auto-flow: row;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  
+}
+
+.topic__text {
+  background-color: #fff;
+  text-align: center;
+  width:20rem;
+  height:15rem;
+  padding:3rem;
+}
+.topic__text:hover {
+  cursor: pointer;
+  background-color: #d798f9;
 }

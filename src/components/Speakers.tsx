@@ -1,12 +1,17 @@
-import Speaker from './Speaker'
-// import { useState, createContext, useContext } from "react";
+import Speaker from "./Speaker";
+import Form from "./Form";
+import { useContext } from "react";
+import { MyGlobalContext } from "../Helper/Context";
 
 const Speakers = () => {
-  return (
-    <div >
-        <Speaker />
-    </div>
-  )
-}
+  const { isAdmin } = useContext(MyGlobalContext);
 
-export default Speakers
+  return (
+    <div>
+      {isAdmin && <Form />}
+      <Speaker />
+    </div> 
+  );
+};
+
+export default Speakers;
