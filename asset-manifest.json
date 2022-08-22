@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/DevTalks/static/css/main.6a95eeb8.css",
+    "main.js": "/DevTalks/static/js/main.55dee6f5.js",
+    "static/js/787.f2e22480.chunk.js": "/DevTalks/static/js/787.f2e22480.chunk.js",
+    "static/media/presentation.jpg": "/DevTalks/static/media/presentation.b8fe180ded1e660f4851.jpg",
+    "static/media/speaker1.jpg": "/DevTalks/static/media/speaker1.b98e12ef02513af3efed.jpg",
+    "static/media/speaker-6.jpg": "/DevTalks/static/media/speaker-6.4cd34105106bdd77da52.jpg",
+    "static/media/speaker-5.jpg": "/DevTalks/static/media/speaker-5.15029745ff1a941d8a1f.jpg",
+    "static/media/speaker-7.jpg": "/DevTalks/static/media/speaker-7.f34a4d0790c9ddaadb47.jpg",
+    "static/media/speaker-3.jpg": "/DevTalks/static/media/speaker-3.42efa343bfbbcc5f350b.jpg",
+    "static/media/speaker-2.jpg": "/DevTalks/static/media/speaker-2.70fee316aee7b801159a.jpg",
+    "static/media/speaker-4.jpg": "/DevTalks/static/media/speaker-4.d5807527d0e2a89aa0d3.jpg",
+    "static/media/anonim.jpg": "/DevTalks/static/media/anonim.eca0af60c05f43d8a3fc.jpg",
+    "index.html": "/DevTalks/index.html",
+    "main.6a95eeb8.css.map": "/DevTalks/static/css/main.6a95eeb8.css.map",
+    "main.55dee6f5.js.map": "/DevTalks/static/js/main.55dee6f5.js.map",
+    "787.f2e22480.chunk.js.map": "/DevTalks/static/js/787.f2e22480.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a95eeb8.css",
+    "static/js/main.55dee6f5.js"
+  ]
+}
