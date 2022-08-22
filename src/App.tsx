@@ -44,7 +44,7 @@ function App() {
             </button>
           </div>
           <div>
-            <Link to="/DevTalks">Home</Link>
+            <Link to="/">Home</Link>
             <Link to="/speakers">Speakers</Link>
             <Link to="/topics">Topics</Link>
           </div>
@@ -52,7 +52,7 @@ function App() {
 
         <MyGlobalContext.Provider value={{ isAdmin, setAdmin, speakers, setSpeakers, photo, setPhoto,topics, setTopics }}>
           <Routes>
-            <Route path="/DevTalks" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/speakers" element={<Speakers />} />
             <Route path="/topics" element={<Topics />} />
           </Routes>
